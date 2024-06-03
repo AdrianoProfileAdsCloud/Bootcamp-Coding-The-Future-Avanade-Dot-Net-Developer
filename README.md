@@ -71,8 +71,7 @@ Foi criada uma instância da classe Calculadora e a inicializada com a data atua
 O uso do Assert.Equal para verificar se o resultado retornado pelo método somar é igual a 5. Se o resultado for diferente de 5, o teste falhará.
 
 > ℹ️ **Teste para o Método subtrair, multiplicar, dividir**<br>
-
-Os testes para os métodos subtrair, multiplicar e dividir seguem a mesma estrutura do teste para o método somar, com a única diferença sendo os valores passados e o resultado esperado. Cada teste cria uma instância da Calculadora, chama o método correspondente e verifica se o resultado está correto.
+> Os testes para os métodos subtrair, multiplicar e dividir seguem a mesma estrutura do teste para o método somar, com a única diferença sendo os valores passados e o resultado esperado. Cada teste cria uma instância da Calculadora, chama o método correspondente e verifica se o resultado está correto.
 
 # Teste para o Método historico
 <br>
