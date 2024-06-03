@@ -70,5 +70,50 @@ Foi criada uma instância da classe Calculadora e a inicializada com a data atua
 **Assert (Afirmação):**<br>
 O uso do Assert.Equal para verificar se o resultado retornado pelo método somar é igual a 5. Se o resultado for diferente de 5, o teste falhará.
 
-> ℹ️ **Teste para o Método subtrair, multiplicar, dividir**
+> ℹ️ **Teste para o Método subtrair, multiplicar, dividir**<br>
+
 Os testes para os métodos subtrair, multiplicar e dividir seguem a mesma estrutura do teste para o método somar, com a única diferença sendo os valores passados e o resultado esperado. Cada teste cria uma instância da Calculadora, chama o método correspondente e verifica se o resultado está correto.
+
+# Teste para o Método historico
+<br>
+
+```c#
+[Fact]
+public void DeveRetornarHistoricoLimitado()
+{
+    // Arrange
+    var calculadora = new Calculadora(DateTime.Now);
+    calculadora.somar(2, 3);
+    calculadora.subtrair(5, 3);
+    calculadora.multiplicar(2, 3);
+    calculadora.dividir(6, 3);
+
+    // Act
+    var historico = calculadora.historico();
+
+    // Assert
+    Assert.Equal(3, historico.Count);
+}
+```
+<br>
+
+**Arrange (Preparação):**<br>
+Cria-se uma instância da Calculadora e a inicializamos com a data atual. Em seguida, são chamados os métodos somar, subtrair, multiplicar e dividir para adicionar operações ao histórico.<br>
+
+**Act (Ação):**<br>
+
+Chamamos o método historico para obter o histórico das operações realizadas.>br>
+
+**Assert (Afirmação):**<br>
+Usamos Assert.Equal para verificar se o tamanho do histórico retornado é igual a 3. Isso verifica se a Calculadora está mantendo um histórico limitado de operações.<br>
+Esses testes garantem que cada método da classe Calculadora funcione conforme o esperado e que o histórico seja mantido corretamente.
+
+> ℹ️ **Ao seguir o TDD**<br>
+>  Esta forma de desenvolvimento(TDD) de escrever os testes antes de implementar a lógica,ajuda a garantir que o código seja testável, robusto e confiável.
+
+
+
+
+
+
+
