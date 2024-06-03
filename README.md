@@ -16,13 +16,13 @@ Essas etapas são repetidas iterativamente, com novos testes sendo adicionados p
 
 # Benefícios do TDD:<br>
 
-** Feedback Rápido:<br>
+ Feedback Rápido:<br>
 Os testes automatizados fornecem feedback instantâneo sobre a integridade do código.<br>
-** Código Mais Confiável:<br>
+ Código Mais Confiável:<br>
 Os testes automatizados ajudam a garantir que o código funcione conforme o esperado.<br>
-** Design Melhorado:<br> O TDD promove um design de código mais modular e desacoplado.<br>
-** Refatoração Segura:<br> Com um conjunto abrangente de testes automatizados, é mais seguro realizar refatorações no código.<br>
-** Maior Produtividade:<br> Embora o TDD possa parecer mais lento no início, ele geralmente resulta em um desenvolvimento mais rápido e menos erros a longo prazo.<br>
+ Design Melhorado:<br> O TDD promove um design de código mais modular e desacoplado.<br>
+ Refatoração Segura:<br> Com um conjunto abrangente de testes automatizados, é mais seguro realizar refatorações no código.<br>
+ Maior Produtividade:<br> Embora o TDD possa parecer mais lento no início, ele geralmente resulta em um desenvolvimento mais rápido e menos erros a longo prazo.<br>
 
 Exemplo de TDD:<br>
 Para exemplo simples de TDD foi criada uma classe Calculadora que possui os seguintes métodos:<br>
@@ -33,45 +33,41 @@ public int subtrair(int val1, int val2);
 public int multiplicar(int val1, int val2);
 public int dividir(int val1, int val2);
 public List<string> historico();
+```   
 
+**Red (Vermelho)**:<br>
+Escreva um teste automatizado que falha porque a funcionalidade ainda não foi implementada.<br>
+**Green (Verde)**:<br> Escreva o código mínimo necessário para fazer o teste automatizado passar.<br>
+**Refactor (Refatoração)**:<br> Refatore o código, se necessário.
+
+
+# Teste para o Método somar.
+<br>
+```c#
+[Fact]
+public void DeveSomarDoisNumerosCorretamente()
+{
+    // Arrange
+    var calculadora = new Calculadora(DateTime.Now);
+
+    // Act
+    var resultado = calculadora.somar(2, 3);
+
+    // Assert
+    Assert.Equal(5, resultado);
+}
 ```
-   
+<br>
 
-Red (Vermelho): Escreva um teste automatizado que falha porque a funcionalidade ainda não foi implementada.
-Green (Verde): Escreva o código mínimo necessário para fazer o teste automatizado passar.
-Refactor (Refatoração): Refatore o código, se necessário.
-Exemplo de Código:
-csharp
-Copiar código
-using System;
-using Xunit;
+**Arrange (Preparação):**<br>
 
-public class CalculadoraTests
-{
-    [Fact]
-    public void DeveSomarDoisNumerosCorretamente()
-    {
-        // Arrange
-        var calculadora = new Calculadora();
+Foi criada uma instância da classe Calculadora e a inicializada com a data atual (DateTime.Now). Isso prepara o ambiente para o teste.<br>
 
-        // Act
-        var resultado = calculadora.Somar(2, 3);
+**Act (Ação):**<br>
+É realizada a chamada do método somar da instância da Calculadora, passando os valores 2 e 3 como argumentos. <br>
 
-        // Assert
-        Assert.Equal(5, resultado);
-    }
-}
+**Assert (Afirmação):**<br>
+O uso do Assert.Equal para verificar se o resultado retornado pelo método somar é igual a 5. Se o resultado for diferente de 5, o teste falhará.
 
-public class Calculadora
-{
-    public int Somar(int a, int b)
-    {
-        return a + b;
-    }
-}
-Neste exemplo:
-
-Red (Vermelho): Começamos escrevendo um teste (DeveSomarDoisNumerosCorretamente) que espera que a soma de 2 e 3 seja igual a 5.
-Green (Verde): Implementamos o método Somar na classe Calculadora para retornar a soma dos dois números.
-Refactor (Refatoração): Não há refatoração necessária neste exemplo simples, mas você pode refatorar o código conforme necessário para torná-lo mais limpo e legível.
-Este é apenas um exemplo básico de TDD. Na prática, você escreveria testes mais abrangentes, cobrindo diferentes casos e cenários. O objetivo é garantir que todas as partes importantes do código sejam testadas e que o código seja robusto e confiável.
+#Teste para o Método subtrair, multiplicar, dividir
+Os testes para os métodos subtrair, multiplicar e dividir seguem a mesma estrutura do teste para o método somar, com a única diferença sendo os valores passados e o resultado esperado. Cada teste cria uma instância da Calculadora, chama o método correspondente e verifica se o resultado está correto.
