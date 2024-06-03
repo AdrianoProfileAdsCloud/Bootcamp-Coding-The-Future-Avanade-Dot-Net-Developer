@@ -43,6 +43,7 @@ Escreva um teste automatizado que falha porque a funcionalidade ainda não foi i
 
 # Teste para o Método somar.
 <br>
+
 ```c#
 [Fact]
 public void DeveSomarDoisNumerosCorretamente()
