@@ -40,5 +40,5 @@ Como disse anteriormente desenvolvemos no decorrer das aulas habilidades com pro
 
 <br>
 
-[![Coding The Future Avanade .NET Developer4](https://img.youtube.com/vi/NwWkET6KVgU/0.jpg)](https://www.youtube.com/watch?v=NwWkET6KVgU)
+[![Coding The Future Avanade .NET Developer4](https://img.youtube.com/vi/Fd6MNBptXU0/0.jpg)](https://www.youtube.com/watch?v=Fd6MNBptXU0)
     
