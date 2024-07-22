@@ -13,7 +13,7 @@ Como disse anteriormente desenvolvemos no decorrer das aulas habilidades com pro
 <br>
 <br>
 
-- [X] **Percorremos por temas essencias de grande valia para nós desenvolvedores de softwares**
+- [X] **Percorremos por temas essencias de extrema importância para um bom Desenvolvimento de Software**
  - 🎯 `Princípios de Desenvolvimento de Aplicações`
  - 🎯 `Fundamentos do .Net.`
  - 🎯 `Manipulação de Dados e objetos com .Net.`
@@ -28,17 +28,17 @@ Como disse anteriormente desenvolvemos no decorrer das aulas habilidades com pro
    <br>
    <br>
    
-[![Santander Bootcamp 2024](https://img.youtube.com/vi/wtiaPK_200U/0.jpg)](https://www.youtube.com/watch?v=wtiaPK_200U)
+[![Coding The Future Avanade .NET Developer](https://img.youtube.com/vi/XPa4A8SN17k/0.jpg)](https://www.youtube.com/watch?v=XPa4A8SN17k)
 
 <br>
 
-[![Santander Bootcamp 2024](https://img.youtube.com/vi/rS5wg5PQ8Us/0.jpg)](https://www.youtube.com/watch?v=rS5wg5PQ8Us)
+[![Coding The Future Avanade .NET Developer](https://img.youtube.com/vi/rS5wg5PQ8Us/0.jpg)](https://www.youtube.com/watch?v=rS5wg5PQ8Us)
 
 <br>
 
-[![Santander Bootcamp 2024](https://img.youtube.com/vi/5KVa0TqxD04&t=3s/0.jpg)](https://www.youtube.com/watch?v=5KVa0TqxD04&t=3s)
+[![Coding The Future Avanade .NET Developer](https://img.youtube.com/vi/5KVa0TqxD04&t=3s/0.jpg)](https://www.youtube.com/watch?v=5KVa0TqxD04&t=3s)
 
 <br>
 
-[![Santander Bootcamp 2024](https://img.youtube.com/vi/NwWkET6KVgU/0.jpg)](https://www.youtube.com/watch?v=NwWkET6KVgU)
+[![Coding The Future Avanade .NET Developer4](https://img.youtube.com/vi/NwWkET6KVgU/0.jpg)](https://www.youtube.com/watch?v=NwWkET6KVgU)
     
