@@ -1,4 +1,4 @@
-## Bootcamp Dio - Coding The Future Avanade .NET Developer - Blindando Seu Código com TDD e Testes Unitários Usando .NET Core.
+## Bootcamp Dio - Coding The Future Avanade .NET Developer - Blindando o Código com TDD e Testes Unitários Usando .NET Core.
 
 
 <p>O desenvolvimento orientado por testes (TDD - Test-Driven Development) é uma prática de desenvolvimento de software em que o código é desenvolvido em pequenos incrementos, começando com a escrita de testes automatizados antes de escrever o código de produção. O ciclo do TDD geralmente segue três etapas:</p><br>
