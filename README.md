@@ -2,7 +2,9 @@
 <br>
 <br>
 
-### <p> O Bootcamp Coding The Future Avanade - .NET Developer ensinou como sair do 0 e criar minhas primeiras APIs que se conectam com banco de dados a partir da metodologia 
+### <p> O Bootcamp Coding The Future Avanade - .NET Developer
+<br>
+Ensinou como sair do 0 e criar minhas primeiras APIs que se conectam com banco de dados a partir da metodologia 
 orientada a testes - TDD. Começamos do básico até um nível mais intermediário, onde podemos colocar em prática boa parte dos conhecimentos adquiridos nas aulas.
 Com foco para formação de um profissional Back-end trabalhamos para que no futuro possamos desenvolver com agilidade, criando e testando aplicações que apresentam os melhores 
 tempos de resposta sem exigir muito poder de processamento.
