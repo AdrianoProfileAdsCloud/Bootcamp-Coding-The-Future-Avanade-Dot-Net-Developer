@@ -14,12 +14,12 @@ Como disse anteriormente desenvolvemos no decorrer das aulas habilidades com pro
 <br>
 
 - [X] **Percorremos por temas essencias de grande valia para nós desenvolvedores de softwares**
- - 🎯 `Princípios de Desenvolvimento de Software Colaborativo`
- - 🎯 `Introdução a Engenheraria de Prompts com ChatGPT`
- - 🎯 `Transformando Prompts em Soluções Reais`
- - 🎯 `Desvendando as IAs Presentes no Nosso Dia a Dia`
- - 🎯 `A Teoria Por Trás das IAs`
- - 🎯 `Soft Skills na Era Ágil: Conectando Pessoas e Oportunidades`
+ - 🎯 `Princípios de Desenvolvimento de Aplicações`
+ - 🎯 `Fundamentos do .Net.`
+ - 🎯 `Manipulação de Dados e objetos com .Net.`
+ - 🎯 `Programação Orientada a Objetos com C#.`
+ - 🎯 `Programação de APIS com Banco de Dados.`
+ - 🎯 `Trabalhando com Desenvolvimento Orientados a Testes.`
 <br>
 <br>
 <br>
