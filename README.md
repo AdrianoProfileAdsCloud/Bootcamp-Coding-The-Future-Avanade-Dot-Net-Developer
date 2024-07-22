@@ -36,7 +36,7 @@ Como disse anteriormente desenvolvemos no decorrer das aulas habilidades com pro
 
 <br>
 
-[![Coding The Future Avanade .NET Developer](https://img.youtube.com/vi/5KVa0TqxD04&t=3s/0.jpg)](https://www.youtube.com/watch?v=5KVa0TqxD04&t=3s)
+[![Coding The Future Avanade .NET Developer](https://img.youtube.com/vi/Vvx0Wb2T2TA/0.jpg)](https://www.youtube.com/watch?v=Vvx0Wb2T2TA)
 
 <br>
 
