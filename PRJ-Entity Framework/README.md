@@ -15,7 +15,7 @@ Aplicação com implementação do tipo Web API.
 
 Diagrama do modelo conceitual :
 
-![Diagrama do modelo Conceitual](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Dio-Coding-The-Future-Avanade-DotNet-Developer-Entity-Framework-com-C-Sharp/blob/main/Imagens/Diagrama%20do%20modelo%20conceitual%20.png)
+![Diagrama do modelo Conceitual](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Coding-The-Future-Avanade-Dot-Net-Developer/blob/main/PRJ-Entity%20Framework/Imagens/Diagrama%20do%20modelo%20conceitual%20.png)
 
 * As tabelas sao descritas conforme a seguir:
 
