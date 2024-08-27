@@ -21,5 +21,3 @@ O programa  calcula os valores dos métodos da classe Reserva, que traz a quanti
 
  ℹ️ **Note**
    Foi implementado algumas funcionalidades a mais do que o solicitado, assim como o sistema de forma geral.Essas implementações extras não solicitadas, tiveram por objetivo fazer com que eu fosse pesquisar mais sobre o que me propus a implementar.Como sempre resultou em mais aprendizado e mais conhecimento para somar com os adquiridos no módulo. Um projeto bem simples mais que resultou em outros conhecimentos adquiridos no decorrer de sua implementação!
-
-   ![ChatGPT](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Dio-Coding-The-Future-Avanade-DotNet-Developer-Sistema-de-Hospedagem-de-um-Hotel-no-CSharp/blob/main/Sistema%20de%20Hospedagem%20de%20um%20Hotel%20no%20c%23.png)
