@@ -154,7 +154,7 @@ Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que e
 
 ## Metodos
 **Swagger**
-![Métodos Swagger](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Dio-Coding-The-Future-Avanade-DotNet-Developer-Entity-Framework-com-C-Sharp/blob/main/Imagens/Swagger%20Colaborador.png)
+![Métodos Swagger](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Coding-The-Future-Avanade-Dot-Net-Developer/blob/main/PRJ-Entity%20Framework/Imagens/Swagger%20Colaborador.png)
 
 **Endpoints**
 
