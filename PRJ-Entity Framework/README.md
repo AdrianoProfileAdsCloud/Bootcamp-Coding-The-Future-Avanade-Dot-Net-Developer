@@ -121,7 +121,9 @@ Comando para criar Migration.
     dotnet-ef migrations add CriacaoDasTabelasDoJira
 ```
 <br>
+
 Apos xecutar este comando usamos o Update para tranasformar esta migartion em uma entidade no Banco de Dodos:
+
 <br>
 
 ```terminal
