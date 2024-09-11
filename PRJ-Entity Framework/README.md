@@ -81,7 +81,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
   ### 🎲Rodando a Aplicação<a id="rodando"></a>
    
-# Clone este repositório
+- Clone este repositório
 
 ```terminal
 
@@ -89,7 +89,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ```
 
-# Acesse a pasta do projeto no terminal
+- Acesse a pasta do projeto no terminal
 
 ```terminal
 
@@ -97,9 +97,15 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ```
 
-# Abra a pasta do projeto no VS Code. Em seguida instale os seguites pacotes, pois alguns são a nível de projeto.
- >  dotnet add package Microsoft.EntityFrameworkCore.Design
- > dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+- Abra a pasta do projeto no VS Code. Em seguida instale os seguites pacotes, pois alguns são a nível de projeto.
+  <br>
+
+  ```terminal
+  
+  dotnet add package Microsoft.EntityFrameworkCore.Design
+  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+  ```
 Este último e de nível Global:
  > dotnet tool install --global dotnet-ef
   
