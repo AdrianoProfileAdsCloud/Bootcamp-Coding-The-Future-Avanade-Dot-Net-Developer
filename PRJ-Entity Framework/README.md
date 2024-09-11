@@ -113,17 +113,25 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
       dotnet tool install --global dotnet-ef
  ```
   
- # Comandos para criar as Migrations. Ela gerencia as alterações no esquema do banco de dados ao longo do tempo, de maneira controlada e versionada.
-Comando para criar Migration.<br>
- > dotnet-ef migrations add CriacaoDasTabelasDoJira<br>
-Apos xecutar este comando usamos o Update para tranasformar esta migartion em uma entidade no Banco de Dodos:<br>
- > dotnet-ef database update
+ - Comandos para criar as Migrations. Ela gerencia as alterações no esquema do banco de dados ao longo do tempo, de maneira controlada e versionada.
+Comando para criar Migration.
+<br>
+
+```terminal
+    dotnet-ef migrations add CriacaoDasTabelasDoJira
+```
+<br>
+Apos xecutar este comando usamos o Update para tranasformar esta migartion em uma entidade no Banco de Dodos:
+<br>
+```terminal
+   dotnet-ef database update
+```  
 
 Obs: Antes de executar o último comando "dotnet-ef database update" certifique-se de ter iniciado o container no Docker como mencionado anteriormente, pois este comando criará no SQL o Banco de Dados com as tabelas de acordo com a estrutura das Classes.
  
  # O servidor iniciará na porta:5166
  # Acesse http://localhost:5166/swagger/index.html
- ````
+
 
 ### 🛠 Tecnologias<a id="tecnologias"></a>
  As seguintes ferramentas e tecnologias foram usadas na construção do projeto:
