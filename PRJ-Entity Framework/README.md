@@ -109,9 +109,9 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 - Este último e de nível Global:
   <br>
   
-   ```terminal   
+  ```terminal   
       dotnet tool install --global dotnet-ef
- ```
+  ```
   
  - Comandos para criar as Migrations. Ela gerencia as alterações no esquema do banco de dados ao longo do tempo, de maneira controlada e versionada.
 Comando para criar Migration.
