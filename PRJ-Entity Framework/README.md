@@ -131,7 +131,7 @@ Obs: Antes de executar o último comando "dotnet-ef database update" certifique-
 | GET    | /Tarefa/ObterPorStatus  | status    | N/A           |
 | POST   | /Tarefa                 | N/A       | Schema Tarefa |
 
-Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que exigirem
+Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que exigirem Body.
 
 ```json
 {
