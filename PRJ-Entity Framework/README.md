@@ -83,9 +83,13 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
    
 ````
 # Clone este repositório
+```terminal
  git clone https://github.com/AdrianoProfileAdsCloud/Bootcamp-Dio-Coding-The-Future-Avanade-DotNet-Developer-Entity-Framework-com-C-Sharp
+```
 # Acesse a pasta do projeto no terminal
+```terminal
  cd pasta
+```
 
 # Abra a pasta do projeto no VS Code. Em seguida instale os seguites pacotes, pois alguns são a nível de projeto.
  >  dotnet add package Microsoft.EntityFrameworkCore.Design
